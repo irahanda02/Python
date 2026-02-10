@@ -1,0 +1,15 @@
+a, b, c, d = map(int, input().split())
+total_marks = a + b + c + d
+print(total_marks)
+Aggregate = total_marks / 4
+print(f"{Aggregate:.2f}")
+if Aggregate > 75  :
+	print("Distinction")
+elif Aggregate >= 60 :
+	print("First Division")
+elif Aggregate >=50 :
+	print("Second Division")
+elif Aggregate >= 40 :
+	print("Third Division")
+else :
+	print("Fail")
